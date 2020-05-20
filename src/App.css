@@ -1,0 +1,29 @@
+:root {
+  --primaryColor: #4aafb7;
+  --primaryColorFaded: #79c4ca;
+  --darkRed: #b3546566;
+  --darkerRed: #b34d4d4d;
+  --darkGrey: #546566;
+  --paledWhite: #ecf2f2;
+  --darkerGrey: #666666;
+}
+
+.App {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  grid-template-areas: "actionsSider conversationsList conversationDetails";
+  grid-template-columns: 80px 380px auto;
+}
+
+.actionsSider {
+  grid-area: actionsSider;
+}
+
+.conversationsList {
+  grid-area: conversationsList;
+}
+
+.conversationDetails {
+  grid-area: conversationDetails;
+}

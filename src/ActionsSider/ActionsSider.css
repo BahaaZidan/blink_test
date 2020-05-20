@@ -1,0 +1,24 @@
+.ActionsSider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primaryColor);
+}
+
+.siderIcon {
+  width: 40px;
+  padding: 20px;
+}
+
+.siderIcon:hover {
+  background-color: var(--primaryColorFaded);
+  cursor: pointer;
+}
+
+.logoutSiderIcon {
+  margin-top: auto;
+}
+
+.conversationSiderIcon {
+  background-color: var(--primaryColorFaded);
+}
