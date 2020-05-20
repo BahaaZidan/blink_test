@@ -48,7 +48,7 @@
   grid-template-areas:
     ". message message"
     "picture sender timestamp";
-  grid-template-columns: 30px auto 30px;
+  grid-template-columns: 30px 700px 30px;
   row-gap: 10px;
   column-gap: 10px;
 }
